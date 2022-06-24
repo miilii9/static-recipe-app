@@ -1,0 +1,29 @@
+.App {
+  height: 100%;
+}
+.col-btn{
+  border-radius: 50%;
+  height: 15px;
+  width:  15px;
+  margin: 0.7rem 0.5rem;
+  cursor: pointer;
+}
+.colrs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.colrs img {
+  cursor: pointer;
+}
+.colrs>div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.app.dark{
+  background-color: #333;
+}
